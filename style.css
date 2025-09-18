@@ -1,3 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+    background-image: url(image.jpg);
+    background-position: center;   
+}
+img{
+    height: 10vmin;
+}
+.Declare{
+    height:20vmin;
+    width:100vmin;
+    display:grid;
+    grid-template-columns: 25vmin 50vmin 25vmin;
+
+}
+.Box,.Mid_Box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Box{
+      border: 5px solid black;
+    border-radius: 40px;
+
+}
 h1{
-    color:blueviolet;
+    color:black;
+    border: 5px solid black;
+    background-color: lightskyblue;
+    border-radius: 40px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.res{
+    height: 3rem;
+    width:8rem;
+    background-color: aquamarine;
+    border: 5px solid black;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.Board{
+    display:grid;
+    height:70vmax;
+    width:100vmin;
+    grid-template-columns: repeat(3,20vmin);
+    grid-template-rows: repeat(3,20vmin);
+    gap:5px;
+    place-content: center;
+}
+.Button{
+    background-color: whitesmoke;
+    border: 5px solid black;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15vmin;
+}
+.Button:hover{
+    box-shadow: 0 0 5px 5px white;
+}
+#res{
+    color:whitesmoke;
+    border:1px solid whitesmoke;
+    box-shadow: 0 0 1px 1px whitesmoke;
 }
