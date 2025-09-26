@@ -17,7 +17,6 @@ btn.forEach((b) => {
            f++;
            p=0;
         };
-        }
         let res=evaluate(Array.from(btn).indexOf(b));
         if (f==9){
             r.innerText="Draw";
@@ -34,7 +33,8 @@ btn.forEach((b) => {
                 P2.textContent=String(++p2);
                 click=0;
             } 
-        }     
+        } 
+        }    
     });      
  });
 function Reset(){
